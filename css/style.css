@@ -279,19 +279,53 @@ footer {
 
 /*--------レスポンシブ---------*/
 @media (max-width: 800px) {
+  .sub-title {
+    font-size: 2.5rem;
+  }
+
+  .headline {
+    margin-bottom: 50px;
+  }
   .parallax-bg {
     background-attachment: scroll;
+    height: 150px;
   }
 
   .price {
+    margin-top: 0px;
+    margin-bottom: 100px;
     flex-direction: column;
   }
+
+  .menu-list {
+    margin-top: 50px;
+  }
+
+  .food {
+    margin-bottom: 50px;
+  }
+
   .menu-list {
     width: 100%;
     border: none;
     padding: 0;
   }
+
+  .about {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
   .column {
     column-count: 1;
+  }
+
+  .column p {
+    padding-bottom: 20px;
+  }
+
+  .location {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
